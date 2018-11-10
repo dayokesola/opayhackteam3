@@ -63,6 +63,7 @@
     <Compile Include="Domain\Payer.cs" />
     <Compile Include="Domain\Recipient.cs" />
     <Compile Include="Domain\Transact.cs" />
+    <Compile Include="Domain\TransactModel.cs" />
     <Compile Include="Form\SignUpForm.cs" />
     <Compile Include="Module\LogicModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

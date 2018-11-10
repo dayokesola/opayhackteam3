@@ -64,4 +64,12 @@ namespace HackOpay.Core.Service
         }
     }
 
+
+    public class TransactService : BaseService
+    {
+        public List<TransactModel> ValidatePayment(string mobile, string paymentRef)
+        {
+
+        }
+    }
 }
