@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HackOpay.Core
+namespace HackOpay.Core.Form
 {
-    public class Class1
+    public class SignUpForm
     {
+        public string MyProperty { get; set; }
     }
 }

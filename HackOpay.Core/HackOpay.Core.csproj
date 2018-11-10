@@ -47,7 +47,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Data\Repository\BaseOpayRepository.cs" />
     <Compile Include="Data\BaseRepository.cs" />
     <Compile Include="Data\BaseSqliteRepository.cs" />
@@ -59,7 +58,11 @@
     <Compile Include="Domain\Payer.cs" />
     <Compile Include="Domain\Recipient.cs" />
     <Compile Include="Domain\Transact.cs" />
+    <Compile Include="Form\SignUpForm.cs" />
+    <Compile Include="Module\LogicModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\BaseService.cs" />
+    <Compile Include="Service\UserService.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Common\" />
