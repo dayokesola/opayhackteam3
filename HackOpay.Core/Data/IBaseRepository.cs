@@ -25,4 +25,6 @@ namespace HackOpay.Core.Data
         string LikeFilter(string field, string txt);
     }
 
+
+
 }

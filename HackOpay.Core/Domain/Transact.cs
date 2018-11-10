@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace HackOpay.Core.Domain
 {
 
-    public class Transaction : BaseEntity<int>
+    public class Transact : BaseEntity<int>
     {
         public int RecipientId { get; set; }
         public int PayerId { get; set; }
