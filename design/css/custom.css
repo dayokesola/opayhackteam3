@@ -1,0 +1,316 @@
+.view {
+    background: url("https://mdbootstrap.com/img/Photos/Others/img (50).jpg")no-repeat center center;
+    background-size: cover;
+}
+
+.from_left {
+    z-index: 2000 !important;
+}
+
+.smart-nav {
+    background-image: url("../img/bg/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* linear-gradient(90deg, #10377f, #042751); */
+}
+html.pushbar_locked .pushbar_overlay{
+    z-index: 1036!important;
+}
+.wallet-p {
+    color: #fbc02d;
+}
+
+.amount-val {
+    color: #fbc02d;
+    font-size: 50px;
+}
+.amount-val2 {
+    color: #fbc02d;
+    font-size: 24px;
+}
+.btn-nav {
+    white-space: nowrap;
+    color: white !important;
+    border-color: white !important;
+    padding: .84rem 1.14rem;
+}
+
+.f-14 {
+    font-size: 14px;
+}
+
+.profile-img {
+    width: 35px;
+    float: right;
+}
+
+.header-h {
+    height: 20% !important;
+}
+
+.navlink-custom {
+    color: #a2a2a2 !important;
+    background-color: white !important;
+    border-radius: 0px !important;
+    border-bottom: 1px solid gainsboro !important;
+}
+
+.navtaby {
+    box-shadow: 0 3px 8px #0000001c;
+}
+
+.nav-tabs .navlink-custom.active {
+    border-bottom: 3px solid #0d3373 !important;
+}
+
+.icon-full img {
+    height: 50px;
+}
+
+.icon-bord {
+    border-right: 1px solid gainsboro;
+}
+
+.sec-colour {
+    color: #1ece91;
+}
+
+.trans-info {
+    font-size: 12px;
+    margin-top: 3px;
+    color: darkgrey;
+}
+
+.t-sm {
+    font-size: 13px;
+}
+
+.menu-icon {
+    width: 22px;
+    margin-top: 16px;
+}
+
+.text-black {
+    color: black !important;
+}
+
+.header-s {
+    height: 12% !important;
+}
+
+.menu-icon-ii {
+    width: 22px;
+    margin-right: 14px;
+    margin-bottom: 8px;
+}
+
+.how-link {
+    color: #042751;
+}
+
+/* Sidelink */
+
+.navbar .navbar-3 .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger1.svg?color=6a1b9a');
+}
+
+.dash-text {
+    color: white;
+    font-size: 14px;
+    position: relative;
+    right: 20px;
+}
+
+.dash-image {
+    width: 40px;
+}
+
+.image2 {
+    width: 80px;
+    box-shadow: 0 3px 6px 0 rgba(23, 23, 52, 0.61);
+    border: solid 5px #ffffff;
+}
+
+.ellipse {
+    background-image: linear-gradient(to bottom, #31326c, #2d2e60 47%, #242658);
+    width: 90px;
+    padding: 5px;
+}
+
+.margin-top {
+    margin-top: 200px;
+}
+
+/* navtabs */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.nav-color {
+    background-image: linear-gradient(259deg, #052142, #204cbe);
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #3a4759;
+    display: block;
+    transition: 0.3s;
+}
+
+.nav-item.active {
+    background-image: linear-gradient(260deg, #052142, #204cbe);
+    padding-left: 0;
+}
+
+.navbar-nav .nav-link {
+    padding-left: 50px;
+    color: #3a4759;
+    width: 100%;
+}
+
+.nav-item {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-link:hover {
+    color: #052142 !important;
+}
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.primary-col {
+    color: #3a4759;
+}
+
+.nav-item.active a {
+    color: white;
+}
+
+.check-icon {
+    width: 56px;
+}
+
+.sub-rip {
+    margin-top: 70%;
+}
+.sub-rip2 {
+    margin-top: 50%;
+}
+/* Ripple CSS */
+
+.pinkBg {
+    background-color: #f6f1d1 !important;
+    /* background-image: linear-gradient(90deg, #10377f, #042751); */
+}
+
+.intro-banner-vdo-play-btn {
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    text-align: center;
+    margin: -30px 0 0 -30px;
+    border-radius: 100px;
+    z-index: 1
+}
+
+.intro-banner-vdo-play-btn i {
+    line-height: 56px;
+    font-size: 30px
+}
+
+.intro-banner-vdo-play-btn .ripple {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    z-index: -1;
+    left: 50%;
+    top: 50%;
+    opacity: 0;
+    margin: -80px 0 0 -80px;
+    border-radius: 100px;
+    -webkit-animation: ripple 1.8s infinite;
+    animation: ripple 1.8s infinite
+}
+
+@-webkit-keyframes ripple {
+    0% {
+        opacity: 1;
+        -webkit-transform: scale(0);
+        transform: scale(0)
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+@keyframes ripple {
+    0% {
+        opacity: 1;
+        -webkit-transform: scale(0);
+        transform: scale(0)
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+.intro-banner-vdo-play-btn .ripple:nth-child(2) {
+    animation-delay: .3s;
+    -webkit-animation-delay: .3s
+}
+
+.intro-banner-vdo-play-btn .ripple:nth-child(3) {
+    animation-delay: .6s;
+    -webkit-animation-delay: .6s
+}
+.curves{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  
+}
+.paddconfirm{
+    padding-top:250px ;
+}
+.extra{
+    box-shadow: 3px 2px 20px #b8b8ba9c
+}
+.semi-circle{
+    background-color: #fbc02d;
+    margin-top: -100px;
+  z-index: -1199;
+    padding-top: 100px;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+}
+.nav-link{
+    border:0!important ;
+}
+.green1{
+   background-color:  #21ce99;
+}

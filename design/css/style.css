@@ -1,0 +1,84 @@
+body,
+h1,
+h2,
+p,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "lato", sans-serif !important;
+}
+
+.bodycon {
+  background-image: linear-gradient(167deg, #052142, #204cbe);
+  height: -webkit-fill-available !important;
+  height: -moz-available;
+  height: 100%;
+}
+.bodyconsign {
+  background-image: linear-gradient(167deg, #052142, #204cbe);
+
+  height: 100%;
+}
+.pad-top {
+  padding-top: 70px;
+  height: auto;
+  padding-bottom: 70px;
+}
+.smart {
+  height: 65px;
+  font-family: Hobo Std !important;
+
+  font-weight: 500;
+
+  color: #ffffff;
+}
+.btn-yellow {
+  background-color: #ffc72f;
+  width: 100%;
+  color: black !important;
+}
+.font-small {
+  font-size: 10pt;
+}
+.pad-card {
+  padding-bottom: 80px;
+  padding-top: 10px;
+}
+.bold {
+  font-weight: bold;
+}
+.bold-login {
+  font-weight: 450;
+}
+.text-small {
+  font-size: 13px;
+}
+.underline {
+  text-decoration: underline;
+  margin-left: 5px;
+}
+/* dashboard */
+.navbar .navbar-3 .navbar-toggler-icon {
+  background-image: url("https://mdbootstrap.com/img/svg/hamburger1.svg?color=6a1b9a");
+}
+.dash-text {
+  color: white;
+  font-size: 14px;
+  position: fixed;
+  right: 70px;
+}
+.dash-image {
+  width: 40px;
+}
+.margin-top {
+  margin-top: 200px;
+}
+/* navtabs */
+.nav-tabs .nav-item .nav-link {
+  color: black;
+}
+.nav-tabs .nav-item .nav-link :active {
+  color: black;
+  border-bottom: 2px solid blue !important ;
+}
