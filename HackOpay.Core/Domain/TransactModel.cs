@@ -13,7 +13,7 @@ namespace HackOpay.Core.Domain
         public int PayerId { get; set; }
         public decimal Amount { get; set; }
         public string PaymentRef { get; set; }
-        public int CurrencyId { get; set; }
+        public string CurrencyCode { get; set; }
         public int TrnxStatus { get; set; }
 
         public string RecipientName { get; set; }
