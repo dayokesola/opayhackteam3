@@ -69,7 +69,7 @@ namespace HackOpay.Core.Service
     {
         public List<TransactModel> ValidatePayment(string mobile, string paymentRef)
         {
-
+            return null;
         }
     }
 }

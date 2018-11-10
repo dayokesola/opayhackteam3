@@ -57,8 +57,12 @@
     <Compile Include="Data\BaseSqliteRepository.cs" />
     <Compile Include="Data\IBaseRepository.cs" />
     <Compile Include="Data\Repository\PayerRepository.cs" />
+    <Compile Include="Data\Repository\RecipientRepository.cs" />
+    <Compile Include="Data\Repository\TransactModelRepository.cs" />
+    <Compile Include="Data\Repository\TransactRepository.cs" />
     <Compile Include="Data\SqliteMappings.cs" />
     <Compile Include="Data\SqlitePoco.cs" />
+    <Compile Include="Domain\Bank.cs" />
     <Compile Include="Domain\BaseEntity.cs" />
     <Compile Include="Domain\Payer.cs" />
     <Compile Include="Domain\Recipient.cs" />
