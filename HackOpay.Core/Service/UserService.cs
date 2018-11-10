@@ -67,9 +67,40 @@ namespace HackOpay.Core.Service
 
     public class TransactService : BaseService
     {
+        public TransactModel Initiate(TransactForm form)
+        {
+            var payer = DataModule.Payers.Search(form.PayerMobile).Items.FirstOrDefault();
+            if(payer == null)
+            {
+                payer = new Payer()
+                {
+                    Mobile = form.PayerMobile,
+                    Name = form.PayerMobile
+                };
+
+                payer = DataModule.Payers.Insert(payer);
+            }
+
+
+            var transact = new Transact()
+            {
+                Amount = form.Amount,
+                CurrencyCode = "NGN",
+                RecipientId = form.RecipientId,
+                TrnxStatus = 0,
+                PaymentRef = form.Narration,
+                PayerId = payer.Id
+
+            };
+
+            transact = DataModule.Transacts.Insert(transact);
+
+            return DataModule.TransactModels.Get(transact.Id);
+        }
+
         public List<TransactModel> ValidatePayment(string mobile, string paymentRef)
         {
-            return null;
+            return DataModule.TransactModels.Verify(mobile, paymentRef).Items;
         }
     }
 }

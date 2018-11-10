@@ -22,4 +22,14 @@ namespace HackOpay.Core.Form
             return FirstName + " " + LastName;
         }
     }
+
+
+    public class TransactForm
+    {
+        public string PayerMobile { get; set; }
+        public decimal Amount { get; set; }
+        public string Narration { get; set; }
+        public DateTime DueDate { get; set; }
+        public int RecipientId { get; set; }
+    }
 }
