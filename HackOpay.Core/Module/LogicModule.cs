@@ -1,4 +1,5 @@
 ﻿using HackOpay.Core.Data.Repository;
+using HackOpay.Core.Service;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,8 +10,10 @@ namespace HackOpay.Core.Module
 {
     public class LogicModule
     {
-        private TransactRepository _transactRepo;
 
+        private UserService _user;
+
+        public UserService UserService { get { if (_user == null) { _user = new UserService(); } return _user; } }
 
     }
 

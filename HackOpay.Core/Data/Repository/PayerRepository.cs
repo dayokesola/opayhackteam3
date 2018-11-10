@@ -54,7 +54,7 @@ namespace HackOpay.Core.Data.Repository
 
     public class RecipientRepository : BaseOpayRepository<Recipient, int>
     {
-        public Page<Recipient> Search(string name = "", string mobile = "",
+        public Page<Recipient> Search(string name = "", string mobile = "", string email = "",
             long page = 1, long pageSize = 10, string sort = "Id")
         {
             var sql = "where Id > 0 and recordstatus in (0,1,2) ";
@@ -67,6 +67,14 @@ namespace HackOpay.Core.Data.Repository
             {
                 sql += $" and Mobile = @{c} ";
                 repo.AddParam("mobile", mobile);
+                c++;
+            }
+
+
+            if (!string.IsNullOrEmpty(email))
+            {
+                sql += $" and Email = @{c} ";
+                repo.AddParam("email", email);
                 c++;
             }
 
