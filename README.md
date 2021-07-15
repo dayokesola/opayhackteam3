@@ -12,6 +12,3 @@ Good Job team"
 - Adejoke Adedapo
 
 
-
-Although still in progress
-
